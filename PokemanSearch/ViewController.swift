@@ -10,6 +10,10 @@ import UIKit
 
 
 class ViewController: UIViewController {
+    
+    let locationManager = CLLocationManager()
+    var mapHasCenteredOnce = false
+    var geoFire: GeoFire!
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -14,6 +14,11 @@
 		BF12FCFE1DC18457003FBE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF12FCFD1DC18457003FBE68 /* Assets.xcassets */; };
 		BF12FD011DC18457003FBE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF12FCFF1DC18457003FBE68 /* LaunchScreen.storyboard */; };
 		BF1801881DC18721000EA8EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF1801871DC18721000EA8EE /* GoogleService-Info.plist */; };
+		BFAC940C1DC301F900D4256E /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94031DC301F900D4256E /* GeoFire.m */; };
+		BFAC940D1DC301F900D4256E /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94051DC301F900D4256E /* GFBase32Utils.m */; };
+		BFAC940E1DC301F900D4256E /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94071DC301F900D4256E /* GFGeoHash.m */; };
+		BFAC940F1DC301F900D4256E /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94091DC301F900D4256E /* GFGeoHashQuery.m */; };
+		BFAC94101DC301F900D4256E /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC940B1DC301F900D4256E /* GFQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,22 @@
 		BF12FD001DC18457003FBE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF12FD021DC18457003FBE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1801871DC18721000EA8EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFAC93FC1DC301F900D4256E /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		BFAC93FD1DC301F900D4256E /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		BFAC93FE1DC301F900D4256E /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		BFAC93FF1DC301F900D4256E /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		BFAC94001DC301F900D4256E /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		BFAC94021DC301F900D4256E /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		BFAC94031DC301F900D4256E /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		BFAC94041DC301F900D4256E /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		BFAC94051DC301F900D4256E /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		BFAC94061DC301F900D4256E /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		BFAC94071DC301F900D4256E /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		BFAC94081DC301F900D4256E /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		BFAC94091DC301F900D4256E /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		BFAC940A1DC301F900D4256E /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		BFAC940B1DC301F900D4256E /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		BFAC94111DC307DD00D4256E /* PokemanSearch-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokemanSearch-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0D822F1DD8A2D534154F5AE /* Pods-PokemanSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemanSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch.release.xcconfig"; sourceTree = "<group>"; };
 		CE317DF49419614C5E5C4C92 /* Pods_PokemanSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemanSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,6 +101,7 @@
 		BF12FCF51DC18457003FBE68 /* PokemanSearch */ = {
 			isa = PBXGroup;
 			children = (
+				BFAC93FA1DC301F900D4256E /* GeoFire */,
 				BF1801871DC18721000EA8EE /* GoogleService-Info.plist */,
 				BF12FCF61DC18457003FBE68 /* AppDelegate.swift */,
 				BF12FCF81DC18457003FBE68 /* ViewController.swift */,
@@ -87,8 +109,48 @@
 				BF12FCFD1DC18457003FBE68 /* Assets.xcassets */,
 				BF12FCFF1DC18457003FBE68 /* LaunchScreen.storyboard */,
 				BF12FD021DC18457003FBE68 /* Info.plist */,
+				BFAC94111DC307DD00D4256E /* PokemanSearch-Bridging-Header.h */,
 			);
 			path = PokemanSearch;
+			sourceTree = "<group>";
+		};
+		BFAC93FA1DC301F900D4256E /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC93FB1DC301F900D4256E /* API */,
+				BFAC94001DC301F900D4256E /* GeoFire-Prefix.pch */,
+				BFAC94011DC301F900D4256E /* Implementation */,
+			);
+			name = GeoFire;
+			path = ../GeoFire;
+			sourceTree = "<group>";
+		};
+		BFAC93FB1DC301F900D4256E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC93FC1DC301F900D4256E /* GeoFire.h */,
+				BFAC93FD1DC301F900D4256E /* GFCircleQuery.h */,
+				BFAC93FE1DC301F900D4256E /* GFQuery.h */,
+				BFAC93FF1DC301F900D4256E /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BFAC94011DC301F900D4256E /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC94021DC301F900D4256E /* GeoFire+Private.h */,
+				BFAC94031DC301F900D4256E /* GeoFire.m */,
+				BFAC94041DC301F900D4256E /* GFBase32Utils.h */,
+				BFAC94051DC301F900D4256E /* GFBase32Utils.m */,
+				BFAC94061DC301F900D4256E /* GFGeoHash.h */,
+				BFAC94071DC301F900D4256E /* GFGeoHash.m */,
+				BFAC94081DC301F900D4256E /* GFGeoHashQuery.h */,
+				BFAC94091DC301F900D4256E /* GFGeoHashQuery.m */,
+				BFAC940A1DC301F900D4256E /* GFQuery+Private.h */,
+				BFAC940B1DC301F900D4256E /* GFQuery.m */,
+			);
+			path = Implementation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAC940D1DC301F900D4256E /* GFBase32Utils.m in Sources */,
 				BF12FCF91DC18457003FBE68 /* ViewController.swift in Sources */,
+				BFAC940E1DC301F900D4256E /* GFGeoHash.m in Sources */,
 				BF12FCF71DC18457003FBE68 /* AppDelegate.swift in Sources */,
+				BFAC940C1DC301F900D4256E /* GeoFire.m in Sources */,
+				BFAC940F1DC301F900D4256E /* GFGeoHashQuery.m in Sources */,
+				BFAC94101DC301F900D4256E /* GFQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vincev.searchpokeman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokemanSearch/PokemanSearch-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -360,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vincev.searchpokeman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokemanSearch/PokemanSearch-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
