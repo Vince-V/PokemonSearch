@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  PokemanSearch
+//  PokemonSearch
 //
 //  Created by Vincent  on 10/26/16.
 //  Copyright © 2016 Vincent . All rights reserved.
@@ -72,12 +72,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     func mapView(_ mapView: MKMapView, viewFor annotation:
         MKAnnotation) -> MKAnnotationView? {
         
+        let annoIdentifier = "Pokemon"
         var annotationView: MKAnnotationView?
         
         if annotation.isKind(of: MKUserLocation.self){
             annotationView = MKAnnotationView(annotation: annotation,
                                               reuseIdentifier: "User")
             annotationView?.image = UIImage(named: "ash")
+        } else if let deqAnno = myMapView.dequeueReusableAnnotationView(withIdentifier: annoIdentifier){
+            annotationView = deqAnno
         }
         
         return annotationView
@@ -90,13 +93,29 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         // Dispose of any resources that can be recreated.
     }
     
-    func createPokemanSighting(forLocation location:
-        CLLocation, withPokeman pokeId: Int) {
+    func createPokemonSighting(forLocation location:
+        CLLocation, withPokemon pokeId: Int) {
         
         geoFire.setLocation(location, forKey: "\(pokeId)")
     }
+    
+    func showSightingsOnMap(location: CLLocation) {
+        let circleQuery = geoFire!.query(at: location, withRadius: 2.5)
+        
+        _ = circleQuery?.observe(GFEventType.keyEntered, with: { (key, location) in
+            
+            if let key = key, let location = location {
+                let anno = PokemonAnnotate(coordinate: location.coordinate, pokemonNumber: Int(key)!)
+                self.myMapView.addAnnotation(anno)
+            }
+        })
+    }
 
-    @IBAction func seeRandomPokeman(_ sender: AnyObject) { //spotting Random Pokeman
+    @IBAction func seeRandomPokemon(_ sender: AnyObject) { //spotting Random Pokemon
+        let loc = CLLocation(latitude: mapView.centerCoordinate.latitude, longitude: mapView.centerCoordinate.longitude)
+        
+        let rand = arc4random_uniform(151) + 1
+        createSighting(forLocation: loc, withPokemon: Int(rand))
     }
 
 }

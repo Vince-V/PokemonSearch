@@ -1,12 +1,13 @@
 //
-//  PokemanAnnotate.swift
-//  PokemanSearch
+//  PokemonAnnotate.swift
+//  PokemonSearch
 //
 //  Created by Vincent  on 10/29/16.
 //  Copyright © 2016 Vincent . All rights reserved.
 //
 
 import Foundation
+import MapKit
 
 let pokemon = [
     "bulbasaur",
@@ -161,8 +162,8 @@ let pokemon = [
     "mewtwo",
     "mew"]
 
-class PokemanAnnotate: NSObject, MKAnnotation {
-    var coordinate: CLLocationCoordinate2D
+class PokemonAnnotate: NSObject, MKAnnotation {
+    var coordinate = CLLocationCoordinate2D()
     var pokemonNumber: Int
     var pokemonName: String
     var title: String?

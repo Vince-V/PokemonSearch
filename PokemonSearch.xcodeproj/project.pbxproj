@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98CB15BC60B572F69F88DD77 /* Pods_PokemanSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE317DF49419614C5E5C4C92 /* Pods_PokemanSearch.framework */; };
+		98CB15BC60B572F69F88DD77 /* Pods_PokemonSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE317DF49419614C5E5C4C92 /* Pods_PokemonSearch.framework */; };
 		BF12FCF71DC18457003FBE68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF12FCF61DC18457003FBE68 /* AppDelegate.swift */; };
 		BF12FCF91DC18457003FBE68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF12FCF81DC18457003FBE68 /* ViewController.swift */; };
 		BF12FCFC1DC18457003FBE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF12FCFA1DC18457003FBE68 /* Main.storyboard */; };
 		BF12FCFE1DC18457003FBE68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF12FCFD1DC18457003FBE68 /* Assets.xcassets */; };
 		BF12FD011DC18457003FBE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF12FCFF1DC18457003FBE68 /* LaunchScreen.storyboard */; };
 		BF1801881DC18721000EA8EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF1801871DC18721000EA8EE /* GoogleService-Info.plist */; };
-		BF7730DF1DC539C900520187 /* PokemanAnnotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7730DE1DC539C900520187 /* PokemanAnnotate.swift */; };
+		BF7730DF1DC539C900520187 /* PokemonAnnotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7730DE1DC539C900520187 /* PokemonAnnotate.swift */; };
 		BFAC940C1DC301F900D4256E /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94031DC301F900D4256E /* GeoFire.m */; };
 		BFAC940D1DC301F900D4256E /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94051DC301F900D4256E /* GFBase32Utils.m */; };
 		BFAC940E1DC301F900D4256E /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAC94071DC301F900D4256E /* GFGeoHash.m */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FFF259A1C47F20110402F14 /* Pods-PokemanSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemanSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch.debug.xcconfig"; sourceTree = "<group>"; };
-		BF12FCF31DC18457003FBE68 /* PokemanSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemanSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFF259A1C47F20110402F14 /* Pods-PokemonSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonSearch/Pods-PokemonSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		BF12FCF31DC18457003FBE68 /* PokemonSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF12FCF61DC18457003FBE68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF12FCF81DC18457003FBE68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF12FCFB1DC18457003FBE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,7 +32,7 @@
 		BF12FD001DC18457003FBE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF12FD021DC18457003FBE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1801871DC18721000EA8EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BF7730DE1DC539C900520187 /* PokemanAnnotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemanAnnotate.swift; sourceTree = "<group>"; };
+		BF7730DE1DC539C900520187 /* PokemonAnnotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnnotate.swift; sourceTree = "<group>"; };
 		BFAC93FC1DC301F900D4256E /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
 		BFAC93FD1DC301F900D4256E /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
 		BFAC93FE1DC301F900D4256E /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
@@ -48,9 +48,9 @@
 		BFAC94091DC301F900D4256E /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
 		BFAC940A1DC301F900D4256E /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
 		BFAC940B1DC301F900D4256E /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
-		BFAC94111DC307DD00D4256E /* PokemanSearch-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokemanSearch-Bridging-Header.h"; sourceTree = "<group>"; };
-		C0D822F1DD8A2D534154F5AE /* Pods-PokemanSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemanSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch.release.xcconfig"; sourceTree = "<group>"; };
-		CE317DF49419614C5E5C4C92 /* Pods_PokemanSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemanSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAC94111DC307DD00D4256E /* PokemonSearch-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PokemonSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0D822F1DD8A2D534154F5AE /* Pods-PokemonSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokemonSearch/Pods-PokemonSearch.release.xcconfig"; sourceTree = "<group>"; };
+		CE317DF49419614C5E5C4C92 /* Pods_PokemonSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CB15BC60B572F69F88DD77 /* Pods_PokemanSearch.framework in Frameworks */,
+				98CB15BC60B572F69F88DD77 /* Pods_PokemonSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 		0248C4E96032C08BCF4C1F31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE317DF49419614C5E5C4C92 /* Pods_PokemanSearch.framework */,
+				CE317DF49419614C5E5C4C92 /* Pods_PokemonSearch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,8 +76,8 @@
 		65AA2996ABF9BA2981891B3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FFF259A1C47F20110402F14 /* Pods-PokemanSearch.debug.xcconfig */,
-				C0D822F1DD8A2D534154F5AE /* Pods-PokemanSearch.release.xcconfig */,
+				9FFF259A1C47F20110402F14 /* Pods-PokemonSearch.debug.xcconfig */,
+				C0D822F1DD8A2D534154F5AE /* Pods-PokemonSearch.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -85,7 +85,7 @@
 		BF12FCEA1DC18457003FBE68 = {
 			isa = PBXGroup;
 			children = (
-				BF12FCF51DC18457003FBE68 /* PokemanSearch */,
+				BF12FCF51DC18457003FBE68 /* PokemonSearch */,
 				BF12FCF41DC18457003FBE68 /* Products */,
 				65AA2996ABF9BA2981891B3E /* Pods */,
 				0248C4E96032C08BCF4C1F31 /* Frameworks */,
@@ -95,26 +95,26 @@
 		BF12FCF41DC18457003FBE68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF12FCF31DC18457003FBE68 /* PokemanSearch.app */,
+				BF12FCF31DC18457003FBE68 /* PokemonSearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF12FCF51DC18457003FBE68 /* PokemanSearch */ = {
+		BF12FCF51DC18457003FBE68 /* PokemonSearch */ = {
 			isa = PBXGroup;
 			children = (
 				BF7730DD1DC5391C00520187 /* Model */,
 				BF7730DC1DC5391100520187 /* Controller */,
 				BFAC93FA1DC301F900D4256E /* GeoFire */,
 				BF12FCF61DC18457003FBE68 /* AppDelegate.swift */,
-				BFAC94111DC307DD00D4256E /* PokemanSearch-Bridging-Header.h */,
+				BFAC94111DC307DD00D4256E /* PokemonSearch-Bridging-Header.h */,
 				BF1801871DC18721000EA8EE /* GoogleService-Info.plist */,
 				BF12FCFA1DC18457003FBE68 /* Main.storyboard */,
 				BF12FCFD1DC18457003FBE68 /* Assets.xcassets */,
 				BF12FCFF1DC18457003FBE68 /* LaunchScreen.storyboard */,
 				BF12FD021DC18457003FBE68 /* Info.plist */,
 			);
-			path = PokemanSearch;
+			path = PokemonSearch;
 			sourceTree = "<group>";
 		};
 		BF7730DC1DC5391100520187 /* Controller */ = {
@@ -128,7 +128,7 @@
 		BF7730DD1DC5391C00520187 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BF7730DE1DC539C900520187 /* PokemanAnnotate.swift */,
+				BF7730DE1DC539C900520187 /* PokemonAnnotate.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF12FCF21DC18457003FBE68 /* PokemanSearch */ = {
+		BF12FCF21DC18457003FBE68 /* PokemonSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF12FD051DC18457003FBE68 /* Build configuration list for PBXNativeTarget "PokemanSearch" */;
+			buildConfigurationList = BF12FD051DC18457003FBE68 /* Build configuration list for PBXNativeTarget "PokemonSearch" */;
 			buildPhases = (
 				DB1926794B1DD8176F7E5000 /* [CP] Check Pods Manifest.lock */,
 				BF12FCEF1DC18457003FBE68 /* Sources */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = PokemanSearch;
-			productName = PokemanSearch;
-			productReference = BF12FCF31DC18457003FBE68 /* PokemanSearch.app */;
+			name = PokemonSearch;
+			productName = PokemonSearch;
+			productReference = BF12FCF31DC18457003FBE68 /* PokemonSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF12FCEE1DC18457003FBE68 /* Build configuration list for PBXProject "PokemanSearch" */;
+			buildConfigurationList = BF12FCEE1DC18457003FBE68 /* Build configuration list for PBXProject "PokemonSearch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,7 +225,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF12FCF21DC18457003FBE68 /* PokemanSearch */,
+				BF12FCF21DC18457003FBE68 /* PokemonSearch */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonSearch/Pods-PokemonSearch-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		771AACEF55F6FAF94AE1E422 /* [CP] Embed Pods Frameworks */ = {
@@ -272,7 +272,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PokemonSearch/Pods-PokemonSearch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB1926794B1DD8176F7E5000 /* [CP] Check Pods Manifest.lock */ = {
@@ -302,7 +302,7 @@
 				BFAC940E1DC301F900D4256E /* GFGeoHash.m in Sources */,
 				BF12FCF71DC18457003FBE68 /* AppDelegate.swift in Sources */,
 				BFAC940C1DC301F900D4256E /* GeoFire.m in Sources */,
-				BF7730DF1DC539C900520187 /* PokemanAnnotate.swift in Sources */,
+				BF7730DF1DC539C900520187 /* PokemonAnnotate.swift in Sources */,
 				BFAC940F1DC301F900D4256E /* GFGeoHashQuery.m in Sources */,
 				BFAC94101DC301F900D4256E /* GFQuery.m in Sources */,
 			);
@@ -425,30 +425,30 @@
 		};
 		BF12FD061DC18457003FBE68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FFF259A1C47F20110402F14 /* Pods-PokemanSearch.debug.xcconfig */;
+			baseConfigurationReference = 9FFF259A1C47F20110402F14 /* Pods-PokemonSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M9Z5C7FPBY;
-				INFOPLIST_FILE = PokemanSearch/Info.plist;
+				INFOPLIST_FILE = PokemonSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vincev.searchpokeman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincev.searchpokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PokemanSearch/PokemanSearch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokemonSearch/PokemonSearch-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		BF12FD071DC18457003FBE68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0D822F1DD8A2D534154F5AE /* Pods-PokemanSearch.release.xcconfig */;
+			baseConfigurationReference = C0D822F1DD8A2D534154F5AE /* Pods-PokemonSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M9Z5C7FPBY;
-				INFOPLIST_FILE = PokemanSearch/Info.plist;
+				INFOPLIST_FILE = PokemonSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vincev.searchpokeman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincev.searchpokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PokemanSearch/PokemanSearch-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokemonSearch/PokemonSearch-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -456,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF12FCEE1DC18457003FBE68 /* Build configuration list for PBXProject "PokemanSearch" */ = {
+		BF12FCEE1DC18457003FBE68 /* Build configuration list for PBXProject "PokemonSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF12FD031DC18457003FBE68 /* Debug */,
@@ -465,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF12FD051DC18457003FBE68 /* Build configuration list for PBXNativeTarget "PokemanSearch" */ = {
+		BF12FD051DC18457003FBE68 /* Build configuration list for PBXNativeTarget "PokemonSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF12FD061DC18457003FBE68 /* Debug */,

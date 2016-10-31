@@ -1,2 +1,2 @@
-# PokemanSearch
-# Creating a Pokeman Search App for iOS
+# PokemonSearch
+# Creating a Pokemon Search App for iOS

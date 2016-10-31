@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0655C3E7FCE02C35F819251044317D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		11E85966E76B07EB461643A79E075C63 /* Pods-PokemonSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BDCFBDD3BE2DE07262F5391F81F0E /* Pods-PokemonSearch-dummy.m */; };
 		2377E523395CB5EC94D91283344580A1 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1059E610DC47BE46D1E48DFF213FD9 /* GoogleToolboxForMac-dummy.m */; };
-		6566C531DCAFAD74D20FDB1FA3DF3259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		8B465D54C800F29955B1EAA69CEF1CAD /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E68371CA35FB939CF57C1E2A715CE5FA /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C602C7BEF5548774EE4648554C9C986 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 007DE734DE931D91806D860DAF4DAB39 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A76E9C6510EC3CBA92D72C206673FF46 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB4B5EA27F7C0599C4621322C8056F6 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF5A33CAE747988723CB39520111DC1D /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D42EEB55E80FCEA8CB63145D9998D5D /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BA5163AA39D58111992178EB61584172 /* Pods-PokemanSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AABD9B7BA318BDAA3A7E478C2A6FF790 /* Pods-PokemanSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F534ABAA36759406493A2809ED3823B4 /* Pods-PokemanSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DA4A2CBDD50B7414088052344A9DA2 /* Pods-PokemanSearch-dummy.m */; };
+		DA46129D57CDA40FB12E3CCD311BED71 /* Pods-PokemonSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3BDF09F1F50A67B0E88145E71079E9 /* Pods-PokemonSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7319ACF39F4746ADF09B2EF9F4EAF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		101AD66EA3493943BCAFA2D994E4F593 /* PBXContainerItemProxy */ = {
+		8747B034A89E51779FAA369070123A6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -31,38 +31,46 @@
 /* Begin PBXFileReference section */
 		007DE734DE931D91806D860DAF4DAB39 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
 		12DD5792F2215BCD09C251024D54BFBE /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		12F8EF36AC718E371B15AC366FC727E5 /* Pods-PokemanSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemanSearch.release.xcconfig"; sourceTree = "<group>"; };
 		13213147994C6F5B945738F797C8F11A /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		1AB4B5EA27F7C0599C4621322C8056F6 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		1FCCF210C5D1B40BD7CF85173F4EFAE7 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23907F9ABE38F796E14A2459158A0822 /* Pods-PokemanSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokemanSearch-frameworks.sh"; sourceTree = "<group>"; };
+		379AAFAFD5E784196414E8C8BCDAA36C /* Pods-PokemonSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokemonSearch-frameworks.sh"; sourceTree = "<group>"; };
+		3B3BDF09F1F50A67B0E88145E71079E9 /* Pods-PokemonSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokemonSearch-umbrella.h"; sourceTree = "<group>"; };
 		3D42EEB55E80FCEA8CB63145D9998D5D /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		3D4FD074AEB0A89D4498994D2E5B9222 /* Pods-PokemonSearch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokemonSearch-resources.sh"; sourceTree = "<group>"; };
+		3E7BDCFBDD3BE2DE07262F5391F81F0E /* Pods-PokemonSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokemonSearch-dummy.m"; sourceTree = "<group>"; };
 		4B1059E610DC47BE46D1E48DFF213FD9 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		59BC8B7B7A1ECB8063108804218BC4AA /* Pods-PokemanSearch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokemanSearch-resources.sh"; sourceTree = "<group>"; };
-		5BBCC3560350488E0278E6B2A5E5BCA3 /* Pods-PokemanSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokemanSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		5655011BC583A070BA4C2C34D9CDD22C /* Pods-PokemonSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PokemonSearch.modulemap"; sourceTree = "<group>"; };
 		5C91FBB8256D8C1F0E7D846C89FABF42 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		5F25E5B3EFDBA201D2226C50F4A010CB /* Pods-PokemanSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PokemanSearch.modulemap"; sourceTree = "<group>"; };
 		6739769A8360F9C1447E97EA3C6C876C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		7636153530D5A7832EE489AD56CEA52E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9ED400A8C102FDC456C967F112C42B95 /* Pods-PokemanSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokemanSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AABD9B7BA318BDAA3A7E478C2A6FF790 /* Pods-PokemanSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokemanSearch-umbrella.h"; sourceTree = "<group>"; };
+		9832BD2B4F423897D074CB72BFB51760 /* Pods-PokemonSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokemonSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99478EB16A37D1670C982B0EB641F0B9 /* Pods-PokemonSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokemonSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B6D5AEE67EB4010007E7CD9A61DE535 /* Pods_PokemonSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2671846E5724B5E8B81505D1590A68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BF4B43ABF7543E37C308528405238E /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		BDF588604CC0718130D95380275B11EA /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		C38F74B2DC0E0DDC771B62466C6A7E0A /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		C5E048DD271B59F11DA5CF124AE3060E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50FCFF574B1111A6BB765EC584CD772 /* Pods-PokemonSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemonSearch.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D3A11D920AE3453DFF65D8C08D9C8690 /* Pods_PokemanSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemanSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4DA4A2CBDD50B7414088052344A9DA2 /* Pods-PokemanSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokemanSearch-dummy.m"; sourceTree = "<group>"; };
+		D24464D4D85179D778D07CC68FEF92B5 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAA3F36858F371C8BDBB165380ED840 /* Pods-PokemonSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemonSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		E68371CA35FB939CF57C1E2A715CE5FA /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		E9B1302C6500524BC3F3011D680B7C35 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		EA514F396800E73F4625C9F45A2434F9 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		F680B168E257CFA48CA00D40C1F4033F /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		F9EA5FA1C0C0412F4D7473DD6B2C1E96 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		FC35F3A250AC839E6C07DA812C398AAF /* Pods-PokemanSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokemanSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4A1D5DC2C98D05744B979BC36CCCCC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7319ACF39F4746ADF09B2EF9F4EAF2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		790E5FC279BA7C0AEFDAA7969F7BE525 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,23 +79,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5516D29C3CAE72DED07B177B3064CE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6566C531DCAFAD74D20FDB1FA3DF3259 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DBBB075F2C20271FC63D22909DE7B28 /* Targets Support Files */ = {
+		08314B33F4883E9C5CDE1E72A1F6691E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5DA1F44EC3608F78423BD4E7CFCCA22 /* Pods-PokemanSearch */,
+				D24464D4D85179D778D07CC68FEF92B5 /* GoogleToolboxForMac.framework */,
+				9B6D5AEE67EB4010007E7CD9A61DE535 /* Pods_PokemonSearch.framework */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		116386C030CC95007D6693CF3C33ECBD /* GoogleInterchangeUtilities */ = {
@@ -161,6 +162,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		588809D11A25F43342562678CB87EA81 /* Pods-PokemonSearch */ = {
+			isa = PBXGroup;
+			children = (
+				AE2671846E5724B5E8B81505D1590A68 /* Info.plist */,
+				5655011BC583A070BA4C2C34D9CDD22C /* Pods-PokemonSearch.modulemap */,
+				9832BD2B4F423897D074CB72BFB51760 /* Pods-PokemonSearch-acknowledgements.markdown */,
+				99478EB16A37D1670C982B0EB641F0B9 /* Pods-PokemonSearch-acknowledgements.plist */,
+				3E7BDCFBDD3BE2DE07262F5391F81F0E /* Pods-PokemonSearch-dummy.m */,
+				379AAFAFD5E784196414E8C8BCDAA36C /* Pods-PokemonSearch-frameworks.sh */,
+				3D4FD074AEB0A89D4498994D2E5B9222 /* Pods-PokemonSearch-resources.sh */,
+				3B3BDF09F1F50A67B0E88145E71079E9 /* Pods-PokemonSearch-umbrella.h */,
+				DDAA3F36858F371C8BDBB165380ED840 /* Pods-PokemonSearch.debug.xcconfig */,
+				C50FCFF574B1111A6BB765EC584CD772 /* Pods-PokemonSearch.release.xcconfig */,
+			);
+			name = "Pods-PokemonSearch";
+			path = "Target Support Files/Pods-PokemonSearch";
+			sourceTree = "<group>";
+		};
 		595ED089703A1412BCF925D3CF593228 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,8 +194,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				54A795821EF006DB1699F3F4AD3A566E /* Pods */,
-				C2116EEBB0F7C6DAAB86B3DBBB9D04FE /* Products */,
-				0DBBB075F2C20271FC63D22909DE7B28 /* Targets Support Files */,
+				08314B33F4883E9C5CDE1E72A1F6691E /* Products */,
+				99718E53B1A036343DEE329A17DED21E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +215,14 @@
 				FCF652D4C93439728FAF31F266C4ADEA /* Support Files */,
 			);
 			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		99718E53B1A036343DEE329A17DED21E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				588809D11A25F43342562678CB87EA81 /* Pods-PokemonSearch */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A22D82499D17197A52443FF38805D189 /* FirebaseInstanceID */ = {
@@ -239,15 +266,6 @@
 			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		C2116EEBB0F7C6DAAB86B3DBBB9D04FE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FCCF210C5D1B40BD7CF85173F4EFAE7 /* GoogleToolboxForMac.framework */,
-				D3A11D920AE3453DFF65D8C08D9C8690 /* Pods_PokemanSearch.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C4693B32A79AE8CAF7F50DB5934804FF /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,24 +273,6 @@
 				3D42EEB55E80FCEA8CB63145D9998D5D /* GTMNSData+zlib.m */,
 			);
 			name = "NSData+zlib";
-			sourceTree = "<group>";
-		};
-		D5DA1F44EC3608F78423BD4E7CFCCA22 /* Pods-PokemanSearch */ = {
-			isa = PBXGroup;
-			children = (
-				C5E048DD271B59F11DA5CF124AE3060E /* Info.plist */,
-				5F25E5B3EFDBA201D2226C50F4A010CB /* Pods-PokemanSearch.modulemap */,
-				9ED400A8C102FDC456C967F112C42B95 /* Pods-PokemanSearch-acknowledgements.markdown */,
-				5BBCC3560350488E0278E6B2A5E5BCA3 /* Pods-PokemanSearch-acknowledgements.plist */,
-				D4DA4A2CBDD50B7414088052344A9DA2 /* Pods-PokemanSearch-dummy.m */,
-				23907F9ABE38F796E14A2459158A0822 /* Pods-PokemanSearch-frameworks.sh */,
-				59BC8B7B7A1ECB8063108804218BC4AA /* Pods-PokemanSearch-resources.sh */,
-				AABD9B7BA318BDAA3A7E478C2A6FF790 /* Pods-PokemanSearch-umbrella.h */,
-				FC35F3A250AC839E6C07DA812C398AAF /* Pods-PokemanSearch.debug.xcconfig */,
-				12F8EF36AC718E371B15AC366FC727E5 /* Pods-PokemanSearch.release.xcconfig */,
-			);
-			name = "Pods-PokemanSearch";
-			path = "Target Support Files/Pods-PokemanSearch";
 			sourceTree = "<group>";
 		};
 		E0106EFF3A59DDF902DEFC88AE659648 /* FirebaseAnalytics */ = {
@@ -316,6 +316,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		9C0E3D7ED9AFE2EA64DBE680CDCBA87F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA46129D57CDA40FB12E3CCD311BED71 /* Pods-PokemonSearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C7DF7BA6D3248730861A2FB6E19B4BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,17 +334,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECEF2D72C12F2DAF012CE975A75570CA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA5163AA39D58111992178EB61584172 /* Pods-PokemanSearch-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		74674885C29A41730E86468ECA79A8F2 /* Pods-PokemonSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806BB403416CF142E3233E6E64743AB8 /* Build configuration list for PBXNativeTarget "Pods-PokemonSearch" */;
+			buildPhases = (
+				9DC2C0965B909987D5B3B378675DFB8A /* Sources */,
+				4A1D5DC2C98D05744B979BC36CCCCC3E /* Frameworks */,
+				9C0E3D7ED9AFE2EA64DBE680CDCBA87F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE84463A467977B90BB8548175084B7E /* PBXTargetDependency */,
+			);
+			name = "Pods-PokemonSearch";
+			productName = "Pods-PokemonSearch";
+			productReference = 9B6D5AEE67EB4010007E7CD9A61DE535 /* Pods_PokemonSearch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		92BB131FA876445E027D20AE23EA7B5F /* GoogleToolboxForMac */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA52F66354E9F71BC37B9128BC55EABF /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
@@ -351,25 +369,7 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = 1FCCF210C5D1B40BD7CF85173F4EFAE7 /* GoogleToolboxForMac.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ECE2EFE56D9549AA9116DB5D16976278 /* Pods-PokemanSearch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DB16EE2C82BFF33167D20CEC0CAC5B8 /* Build configuration list for PBXNativeTarget "Pods-PokemanSearch" */;
-			buildPhases = (
-				4547399D431DE9A51ECEAF505863918F /* Sources */,
-				D5516D29C3CAE72DED07B177B3064CE1 /* Frameworks */,
-				ECEF2D72C12F2DAF012CE975A75570CA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BBFFB2E21FCEDC95E0C7560C49E79263 /* PBXTargetDependency */,
-			);
-			name = "Pods-PokemanSearch";
-			productName = "Pods-PokemanSearch";
-			productReference = D3A11D920AE3453DFF65D8C08D9C8690 /* Pods_PokemanSearch.framework */;
+			productReference = D24464D4D85179D778D07CC68FEF92B5 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -389,12 +389,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C2116EEBB0F7C6DAAB86B3DBBB9D04FE /* Products */;
+			productRefGroup = 08314B33F4883E9C5CDE1E72A1F6691E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				92BB131FA876445E027D20AE23EA7B5F /* GoogleToolboxForMac */,
-				ECE2EFE56D9549AA9116DB5D16976278 /* Pods-PokemanSearch */,
+				74674885C29A41730E86468ECA79A8F2 /* Pods-PokemonSearch */,
 			);
 		};
 /* End PBXProject section */
@@ -409,22 +409,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4547399D431DE9A51ECEAF505863918F /* Sources */ = {
+		9DC2C0965B909987D5B3B378675DFB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F534ABAA36759406493A2809ED3823B4 /* Pods-PokemanSearch-dummy.m in Sources */,
+				11E85966E76B07EB461643A79E075C63 /* Pods-PokemonSearch-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BBFFB2E21FCEDC95E0C7560C49E79263 /* PBXTargetDependency */ = {
+		AE84463A467977B90BB8548175084B7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleToolboxForMac;
 			target = 92BB131FA876445E027D20AE23EA7B5F /* GoogleToolboxForMac */;
-			targetProxy = 101AD66EA3493943BCAFA2D994E4F593 /* PBXContainerItemProxy */;
+			targetProxy = 8747B034A89E51779FAA369070123A6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,9 +473,9 @@
 			};
 			name = Debug;
 		};
-		5836AB1CAAA4D7A7499696392962E4A2 /* Release */ = {
+		29B854E9DE08B5751D589C3E49140EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12F8EF36AC718E371B15AC366FC727E5 /* Pods-PokemanSearch.release.xcconfig */;
+			baseConfigurationReference = C50FCFF574B1111A6BB765EC584CD772 /* Pods-PokemonSearch.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -488,18 +488,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PokemanSearch/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PokemonSearch/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PokemonSearch/Pods-PokemonSearch.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PokemanSearch;
+				PRODUCT_NAME = Pods_PokemonSearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -507,6 +507,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		31C4814278AE182B4B4A0A16A2C2AA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDAA3F36858F371C8BDBB165380ED840 /* Pods-PokemonSearch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PokemonSearch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokemonSearch/Pods-PokemonSearch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PokemonSearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6589856376C4D3D4F587D1F6FCD00810 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -572,41 +607,6 @@
 			};
 			name = Debug;
 		};
-		E2A2958064244DBD543EF952348B7AE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC35F3A250AC839E6C07DA812C398AAF /* Pods-PokemanSearch.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PokemanSearch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PokemanSearch/Pods-PokemanSearch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PokemanSearch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -650,20 +650,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DB16EE2C82BFF33167D20CEC0CAC5B8 /* Build configuration list for PBXNativeTarget "Pods-PokemanSearch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2A2958064244DBD543EF952348B7AE3 /* Debug */,
-				5836AB1CAAA4D7A7499696392962E4A2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
 				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806BB403416CF142E3233E6E64743AB8 /* Build configuration list for PBXNativeTarget "Pods-PokemonSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C4814278AE182B4B4A0A16A2C2AA0E /* Debug */,
+				29B854E9DE08B5751D589C3E49140EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
