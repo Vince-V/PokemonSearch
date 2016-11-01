@@ -112,10 +112,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     }
 
     @IBAction func seeRandomPokemon(_ sender: AnyObject) { //spotting Random Pokemon
-        let loc = CLLocation(latitude: mapView.centerCoordinate.latitude, longitude: mapView.centerCoordinate.longitude)
+        
+        let loc = CLLocation(latitude: myMapView.centerCoordinate.latitude, longitude: myMapView.centerCoordinate.longitude)
         
         let rand = arc4random_uniform(151) + 1
-        createSighting(forLocation: loc, withPokemon: Int(rand))
+        createPokemonSighting(forLocation: loc, withPokemon: Int(rand))
     }
 
 }
